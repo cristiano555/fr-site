@@ -1,22 +1,20 @@
 import React, { Fragment, FC } from 'react'
 import { useSelector } from 'react-redux'
 
-import Header from '../components/Header'
 import { translate } from '../i18n'
 import { RootState } from '../redux-store'
 
 
-
-const Homepage: FC = () => {
+const B2B: FC = () => {
 
     const { language } = useSelector((state: RootState) => state.language)
 
     return (
         <Fragment>
-            <Header/>
-            <p>{translate('introText', language)}</p>
+            {/* <p>{translate('aboutUsText', language)}</p> */}
+            <p>B2B system welcome</p>
         </Fragment>
     )
 }
 
-export default Homepage;
+export default B2B;

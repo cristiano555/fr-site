@@ -4,5 +4,7 @@
     "Offer": "Offer",
     "B2B": "B2B",
     "Contact": "Contact",
-    "introText": "Testen"
+    "introText": "Testen",
+    "aboutUsText": "about Us Text here",
+    "contactsectionText": "Contact section here"
 }
